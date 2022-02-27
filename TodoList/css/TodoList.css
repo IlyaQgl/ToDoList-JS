@@ -1,0 +1,255 @@
+body {
+		margin: 0;
+		color: black;
+		font-family: 'Oswald', sans-serif;
+		font-family: 'Roboto', sans-serif; }
+
+*,
+*:before,
+*:after {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box; }
+
+:active, :hover, :focus {
+		outline: 0;
+		outline-offset: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+		margin: 0; }
+
+p {
+		margin: 0 0 0px; }
+
+.container {
+		width: 100%;
+		max-width: 1300px;
+		margin: 0px auto;
+		padding: 0 0px; }
+
+input {
+		padding: 0;
+		margin: 0;
+		border: 0;
+		border: none; }
+
+/* application */
+.application {
+		width: 450px;
+		height: 500px;
+		border: 1px solid #fff;
+		border-radius: 10px;
+		background-color: #e5e4e2;
+		margin: 150px auto; }
+
+.application-logo {
+		background-color: #b8aea5; }
+
+.application-logo_text {
+		color: #242426;
+		font-weight: 300;
+		font-family: 'Oswald', sans-serif;
+		margin-left: 10px;
+		padding: 10px; }
+
+.application_input {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center; }
+		.application_input > img {
+				height: 40px;
+				width: 40px;
+				-webkit-transition: 0.1s;
+				transition: 0.1s;
+				margin-top: 20px;
+				border-radius: 10px; }
+				.application_input > img:hover {
+						background-color: #62d8d0;
+						cursor: pointer; }
+				.application_input > img:active {
+						-webkit-transform: scale(0.9);
+						        transform: scale(0.9);
+						-webkit-transition: 0.1s;
+						transition: 0.1s; }
+
+.application_input-item {
+		width: 80%;
+		border: 0px;
+		height: 50px;
+		margin-top: 20px;
+		border: 1px solid #c4c4c4;
+		border-radius: 10px;
+		font-size: 18px;
+		padding-left: 6px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300; }
+		.application_input-item::-webkit-input-placeholder {
+				color: #9fa4a7;
+				opacity: 0.95;
+				padding: 10px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 15px;
+				letter-spacing: 2px; }
+		.application_input-item::-moz-placeholder {
+				color: #9fa4a7;
+				opacity: 0.95;
+				padding: 10px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 15px;
+				letter-spacing: 2px; }
+		.application_input-item:-ms-input-placeholder {
+				color: #9fa4a7;
+				opacity: 0.95;
+				padding: 10px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 15px;
+				letter-spacing: 2px; }
+		.application_input-item::-ms-input-placeholder {
+				color: #9fa4a7;
+				opacity: 0.95;
+				padding: 10px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 15px;
+				letter-spacing: 2px; }
+		.application_input-item::placeholder {
+				color: #9fa4a7;
+				opacity: 0.95;
+				padding: 10px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 15px;
+				letter-spacing: 2px; }
+
+.application {
+		overflow-y: scroll; }
+		.application::-webkit-scrollbar {
+				width: 10px; }
+		.application::-webkit-scrollbar-track {
+				-webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+				        box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+				background-color: #f9f9fd; }
+		.application::-webkit-scrollbar-thumb {
+				background-color: #356184;
+				background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.25)), color-stop(0.5, transparent), to(transparent)); }
+
+.application_task-list_item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 90%;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-top: 30px;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		border: 1px solid rgba(242, 242, 242, 0.775);
+		border-radius: 10px;
+		height: 100px;
+		position: relative;
+		background-color: #f2f2f2;
+		margin-left: 20px; }
+		.application_task-list_item:hover {
+				cursor: pointer;
+				background-color: #939d9c; }
+		.application_task-list_item > h2 {
+				margin-left: 20px; }
+				.application_task-list_item > h2:hover {
+						cursor: pointer; }
+
+.task-text_item {
+		width: 70%;
+		color: black;
+		height: 100%;
+		overflow-x: auto;
+		word-break: break-all;
+		overflow-y: auto;
+		padding: 10px;
+		display: block; }
+
+.item-edit {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex; }
+
+.edit-button {
+		width: 20px;
+		height: 20px; }
+
+.item-input {
+		width: 80px;
+		height: 30px; }
+
+.application_task-list_item-nav {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-right: 20px; }
+
+.img-checkmark:hover {
+		cursor: pointer;
+		background-color: #62d8d0; }
+
+.img-checkmark {
+		width: 30px;
+		height: 30px; }
+
+.img-cross:hover {
+		cursor: pointer;
+		background-color: #f7654a; }
+
+.img-cross {
+		width: 30px;
+		height: 30px; }
+
+.img-edit:hover {
+		cursor: pointer;
+		background-color: #2d2950; }
+
+.img-edit {
+		width: 22px;
+		height: 22px; }
+
+@media (max-width: 780px) {
+		.application {
+				margin-top: 20px;
+				width: 80%;
+				height: 350px; }
+		.application_task-list_item {
+				margin-top: 5px; } }
+
+@media (max-width: 470px) {
+		.application {
+				margin-top: 20px;
+				width: 80%;
+				height: 340px; }
+		.application-logo_text {
+				font-size: 25px; }
+		.application_input {
+				-ms-flex-wrap: wrap;
+				    flex-wrap: wrap; }
+				.application_input:last-child {
+						-webkit-box-pack: end;
+						    -ms-flex-pack: end;
+						        justify-content: end; }
+		.application_input-item {
+				width: 90%; }
+		.application_input > img {
+				margin-top: 0px; }
+		.application_task-list_item {
+				margin-left: 5px; }
+		.input-button {
+				margin-left: 80%; } }
+/*# sourceMappingURL=TodoList.css.map */
